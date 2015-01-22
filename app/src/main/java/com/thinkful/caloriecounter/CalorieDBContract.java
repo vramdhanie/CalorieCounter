@@ -31,13 +31,13 @@ public class CalorieDBContract {
             MealType.TABLE_NAME, MealType.COLUMN_NAME_NAME);
 
     /*DROP TABLE Statements*/
-    private static final String SQL_DELETE_FOOD =
+    public static final String SQL_DELETE_FOOD =
             String.format("DROP TABLE IF EXISTS %s", Food.TABLE_NAME);
 
-    private static final String SQL_DELETE_MEAL =
+    public static final String SQL_DELETE_MEAL =
             String.format("DROP TABLE IF EXISTS %s", Meal.TABLE_NAME);
 
-    private static final String SQL_DELETE_MEAL_TYPE =
+    public static final String SQL_DELETE_MEAL_TYPE =
             String.format("DROP TABLE IF EXISTS %s", MealType.TABLE_NAME);
 
 
